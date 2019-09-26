@@ -173,6 +173,160 @@ export class GalleryService {
       scientificName: 'Dimocarpus longan',
       description: '',
       imageUrl: 'assets/images/fruits/longanfruit.jpg'
+    },
+    {
+      id: 25,
+      name: 'Lychee',
+      scientificName: 'Litchi chinensis',
+      description: '',
+      imageUrl: 'assets/images/fruits/lychee.jpg'
+    },
+    {
+      id: 26,
+      name: 'Mango',
+      scientificName: 'Mangifera indica',
+      description: '',
+      imageUrl: 'assets/images/fruits/mangoes.jpg'
+    },
+    {
+      id: 27,
+      name: 'Mangosteen',
+      scientificName: 'Garcinia mangostana',
+      description: '',
+      imageUrl: 'assets/images/fruits/mangosteen.jpg'
+    },
+    {
+      id: 28,
+      name: 'Mosambi',
+      scientificName: 'Citrus limetta',
+      description: '',
+      imageUrl: 'assets/images/fruits/mosambi.jpg'
+    },
+    {
+      id: 29,
+      name: 'Mulberry',
+      scientificName: 'Morus nigra',
+      description: '',
+      imageUrl: 'assets/images/fruits/mulberries.jpg'
+    },
+    {
+      id: 30,
+      name: 'Olive',
+      scientificName: 'Olea europaea',
+      description: '',
+      imageUrl: 'assets/images/fruits/olives.jpg'
+    },
+    {
+      id: 31,
+      name: 'Orange',
+      scientificName: 'Citrus X sinensis',
+      description: '',
+      imageUrl: 'assets/images/fruits/oranges.jpg'
+    },
+    {
+      id: 32,
+      name: 'Papaya',
+      scientificName: 'Carica papaya',
+      description: '',
+      imageUrl: 'assets/images/fruits/papaya.jpg'
+    },
+    {
+      id: 33,
+      name: 'Passion Fruit',
+      scientificName: 'Passiflora edulis',
+      description: '',
+      imageUrl: 'assets/images/fruits/passionfruit.jpg'
+    },
+    {
+      id: 34,
+      name: 'Peach',
+      scientificName: 'Prunus persica',
+      description: '',
+      imageUrl: 'assets/images/fruits/peach.jpg'
+    },
+    {
+      id: 35,
+      name: 'Pear',
+      scientificName: 'Pyrus communis',
+      description: '',
+      imageUrl: 'assets/images/fruits/pears.jpg'
+    },
+    {
+      id: 36,
+      name: 'Pineapple',
+      scientificName: 'Ananas comosus',
+      description: '',
+      imageUrl: 'assets/images/fruits/pineapples.jpg'
+    },
+    {
+      id: 37,
+      name: 'Plum',
+      scientificName: 'Prunus subg. Prunus',
+      description: '',
+      imageUrl: 'assets/images/fruits/plums.jpg'
+    },
+    {
+      id: 38,
+      name: 'Pomegranate',
+      scientificName: 'Punica granatum',
+      description: '',
+      imageUrl: 'assets/images/fruits/pomegranates.jpg'
+    },
+    {
+      id: 39,
+      name: 'Pomelo',
+      scientificName: 'Citrus maxima',
+      description: 'The largest citrus fruit from the family Rutaceae.',
+      imageUrl: 'assets/images/fruits/pomelo.jpg'
+    },
+    {
+      id: 40,
+      name: 'Rambutan',
+      scientificName: 'Nephelium lappaceum',
+      description: '',
+      imageUrl: 'assets/images/fruits/rambutan.jpg'
+    },
+    {
+      id: 41,
+      name: 'Raspberry',
+      scientificName: 'Rubus idaeus',
+      description: '',
+      imageUrl: 'assets/images/fruits/raspberries.jpg'
+    },
+    {
+      id: 42,
+      name: 'Sapota',
+      scientificName: 'Manilkara zapota',
+      description: '',
+      imageUrl: 'assets/images/fruits/sapota.jpg'
+    },
+    {
+      id: 43,
+      name: 'Shamam',
+      scientificName: 'Cucumis melo',
+      description: '',
+      imageUrl: 'assets/images/fruits/shamam.jpg'
+    },
+    {
+      id: 44,
+      name: 'Star Fruit',
+      scientificName: 'Averrhoa carambola',
+      description: '',
+      imageUrl: 'assets/images/fruits/starfruit.jpg'
+    },
+    {
+      id: 45,
+      name: 'Strawberry',
+      scientificName: 'Fragaria × ananassa',
+      description: '',
+      imageUrl: 'assets/images/fruits/strawberries.jpg'
+    },
+    {
+      id: 46,
+      name: 'Watermelon',
+      scientificName: 'Citrullus lanatus',
+      description: '',
+      imageUrl: 'assets/images/fruits/watermelon.jpg'
     }
   ];
 
