@@ -47,6 +47,48 @@ export class GalleryService {
       scientificName: 'Rubus fruticosus',
       description: '',
       imageUrl: 'assets/images/fruits/blackberries.jpg'
+    },
+    {
+      id: 7,
+      name: 'Blueberry',
+      scientificName: 'Cyanococcus vaccinium',
+      description: '',
+      imageUrl: 'assets/images/fruits/blueberries.jpg'
+    },
+    {
+      id: 8,
+      name: 'Cherry',
+      scientificName: 'Prunus avium',
+      description: '',
+      imageUrl: 'assets/images/fruits/cherries.jpg'
+    },
+    {
+      id: 9,
+      name: 'Custard Apple',
+      scientificName: 'Annona reticulata',
+      description: '',
+      imageUrl: 'assets/images/fruits/custard-apple.jpg'
+    },
+    {
+      id: 10,
+      name: 'Dates',
+      scientificName: 'Phoenix dactylifera',
+      description: '',
+      imageUrl: 'assets/images/fruits/dates.jpg'
+    },
+    {
+      id: 11,
+      name: 'Dragon Fruit',
+      scientificName: 'Hylocereus undatus',
+      description: '',
+      imageUrl: 'assets/images/fruits/dragonfruit.jpg'
+    },
+    {
+      id: 12,
+      name: 'Egg Fruit',
+      scientificName: 'Pouteria campechiana',
+      description: '',
+      imageUrl: 'assets/images/fruits/egg-fruits.jpg'
     }
   ];
 
