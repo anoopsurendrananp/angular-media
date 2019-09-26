@@ -83,6 +83,9 @@
 }
 
 .ngx-pagination {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
   .current {
     background: $olive !important;
   }
