@@ -89,6 +89,90 @@ export class GalleryService {
       scientificName: 'Pouteria campechiana',
       description: '',
       imageUrl: 'assets/images/fruits/egg-fruits.jpg'
+    },
+    {
+      id: 13,
+      name: 'Fig',
+      scientificName: 'Ficus caica',
+      description: '',
+      imageUrl: 'assets/images/fruits/figs.jpg'
+    },
+    {
+      id: 14,
+      name: 'Gooseberry',
+      scientificName: 'Ribes uva-crispa',
+      description: '',
+      imageUrl: 'assets/images/fruits/gooseberry.jpg'
+    },
+    {
+      id: 15,
+      name: 'Grapes',
+      scientificName: 'Vitis vinifera',
+      description: '',
+      imageUrl: 'assets/images/fruits/grapes.jpg'
+    },
+    {
+      id: 16,
+      name: 'Grape Fruit',
+      scientificName: 'Citrus × paradisi',
+      description: '',
+      imageUrl: 'assets/images/fruits/grapefruit.jpg'
+    },
+    {
+      id: 17,
+      name: 'Guava',
+      scientificName: 'Psidium guajava',
+      description: '',
+      imageUrl: 'assets/images/fruits/guavas.jpg'
+    },
+    {
+      id: 18,
+      name: 'Jack Fruit',
+      scientificName: 'Artocarpus heterophyllus',
+      description: '',
+      imageUrl: 'assets/images/fruits/jackfruit.png'
+    },
+    {
+      id: 19,
+      name: 'Jamba',
+      scientificName: 'Syzygium samarangense',
+      description: '',
+      imageUrl: 'assets/images/fruits/jamba.jpg'
+    },
+    {
+      id: 20,
+      name: 'Jamun',
+      scientificName: 'Syzygium cumini',
+      description: '',
+      imageUrl: 'assets/images/fruits/jamun.jpg'
+    },
+    {
+      id: 21,
+      name: 'Jujube',
+      scientificName: 'Syzygium samarangense',
+      description: '',
+      imageUrl: 'assets/images/fruits/jujube.jpg'
+    },
+    {
+      id: 22,
+      name: 'Kiwi',
+      scientificName: 'Actinidia deliciosa',
+      description: '',
+      imageUrl: 'assets/images/fruits/kiwi.jpg'
+    },
+    {
+      id: 23,
+      name: 'Lemon',
+      scientificName: 'Citrus × limon',
+      description: '',
+      imageUrl: 'assets/images/fruits/lemons.jpg'
+    },
+    {
+      id: 24,
+      name: 'Longan Fruit',
+      scientificName: 'Dimocarpus longan',
+      description: '',
+      imageUrl: 'assets/images/fruits/longanfruit.jpg'
     }
   ];
 
