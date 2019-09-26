@@ -1,0 +1,89 @@
+/*
+ * Entry point of global application style.
+ * Component-specific style should not go here and be included directly as part of the components.
+ */
+
+// Theme variables, must be included before the libraries to allow overriding defaults
+@import "theme/theme-variables";
+
+// 3rd party libraries
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+// Theme customization
+@import "theme/theme";
+
+
+.bg-blue {
+  background-image: linear-gradient(to right, $green, $olive);
+}
+
+#galleryList {
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .fruitCard {
+    border: none;
+    min-height: 220px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 5px !important;
+    overflow: hidden;
+    transition: all .3s ease;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: -moz-linear-gradient(top, rgba(0, 94, 184, 0) 0%, rgba(0, 49, 113, 0.75) 100%);
+      background: -webkit-linear-gradient(top, rgba(0, 94, 184, 0) 0%, rgba(0, 49, 113, 0.75) 100%);
+      background: linear-gradient(to bottom, rgba(0, 94, 184, 0) 0%, rgba(0, 49, 113, 0.75) 100%);
+    }
+
+    &:hover {
+      ms-transform: scale(1.5);
+      /* IE 9 */
+      -webkit-transform: scale(1.5);
+      /* Safari 3-8 */
+      transform: scale(1.2);
+
+      .info {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    color: $white;
+
+    .info {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .title {
+      margin: 0 !important;
+    }
+  }
+}
+
+.ngx-pagination {
+  .current {
+    background: $olive !important;
+  }
+}
