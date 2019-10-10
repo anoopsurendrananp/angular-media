@@ -16,9 +16,12 @@
 // Theme customization
 @import "theme/theme";
 
+@import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
 
-.bg-blue {
-  background-image: linear-gradient(to right, $green, $olive);
+
+.bg-banner {
+  background-image: linear-gradient(to right, $green, $olive, $olive);
+  font-family: 'Grenze', serif;
 }
 
 #galleryList {
@@ -58,6 +61,7 @@
       .info {
         opacity: 1;
         visibility: visible;
+        font-family: 'Grenze', serif;
       }
     }
   }
